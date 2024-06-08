@@ -14,6 +14,7 @@ zerops:
       base: python@3.12
       prepareCommands:
         - pip install --no-cache-dir -r requirements.txt
+        - echo "prepare"
       envVariables:
         DB_HOST: $db_hostname
         DB_PORT: $db_port
