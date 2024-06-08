@@ -26,3 +26,4 @@ zerops:
       initCommands:
         - zsc execOnce -v app-migrate python3 manage.py migrate
       start: gunicorn --bind 0.0.0.0:8000 recipe.wsgi
+
